@@ -26,3 +26,10 @@ A site to provide help to families affected by the consequences of the Corona vi
 
 #### Admin Page :
 
+###### All Request :
+![all_request_page](imgs/all_request_page.png)
+
+<br>
+
+###### Accepted Request :
+![accepted_request_page](imgs/accepted_request_page.png)
