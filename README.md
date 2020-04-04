@@ -15,31 +15,31 @@ A site to provide help to families affected by the consequences of the Corona vi
 
 #### Home Page :
 
-![home_page](imgs/home_page.png)
+![home_page](help_website/imgs/home_page.png)
 
 <br>
 
 #### Submit request page:
-![home_page](imgs/submit_requist_page.png)
+![home_page](help_website/imgs/submit_requist_page.png)
 
 <br>
 
 #### Admin Page :
 
 ###### All Request :
-![all_request_page](imgs/all_request_page.png)
+![all_request_page](help_website/imgs/all_request_page.png)
 
 <br>
 
 ###### Accepted Request :
-![accepted_request_page](imgs/accepted_request_page.png)
+![accepted_request_page](help_website/imgs/accepted_request_page.png)
 
 <br>
 
 ## ERD 
 
 #### Family ERD :
-![family_page](imgs/family_erd.png)
+![family_page](help_website/imgs/family_erd.png)
 
 #### Admin ERD :
-![admin_page](imgs/admin_erd.png)
+![admin_page](help_website/imgs/admin_erd.png)
