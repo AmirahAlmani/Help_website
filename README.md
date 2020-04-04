@@ -43,3 +43,5 @@ A site to provide help to families affected by the consequences of the Corona vi
 
 #### Admin ERD :
 ![admin_page](help_website/imgs/admin_erd.png)
+
+

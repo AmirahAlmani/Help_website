@@ -1,0 +1,36 @@
+<%= form_with model: @user ,local:true do |form| %>
+    <p>
+    First Name :
+    <%= form.text_field :firstName %>
+    </p>
+   
+    <p>
+    Last Name :
+<%= form.text_field :lastName %>
+    </p>
+
+
+    <p>
+    Email :
+<%= form.text_field :email %>
+    </p>
+
+        <p>
+    Phone :
+<%= form.text_field :phone %>
+    </p>
+
+        <p>
+    Number Of Family Members :
+<%= form.text_field :numberOfFamilyMembers %>
+    </p>
+
+
+        <p>
+    Region :
+<%= form.text_field :region %>
+    </p>
+
+
+    <%= form.submit %>
+        <% end %>

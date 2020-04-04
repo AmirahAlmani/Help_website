@@ -1,0 +1,32 @@
+<h1>All the Users</h1>
+
+<table >
+  <tr>
+  <th>ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Number of family members</th>
+    <th>Region</th>
+  </tr>
+
+  <% @users.each do |user| %>
+      <tr>
+      <td><%= user.id %></td>
+       <td><%= user.firstName %></td>
+        <td><%= user.lastName %></td>
+        <td><%= user.email %></td>
+        <td><%= user.phone %></td>
+        <td><%= user.numberOfFamilyMembers %></td>
+        <td><%= user.region %></td>
+           <td><a href="<%= edit_user_path(user) %>" >
+           <em>Edit</em>
+          </a>
+        </td>
+          <td><a data-confirm="Are you sure you want to delete <%= user.firstName %>?" data-method="delete" href="/users/<%= user.id %>" rel="nofollow"><i>Delete</i>
+    	   </a>
+        </td>
+      </tr>
+  <% end %>
+</table>
