@@ -15,18 +15,23 @@ class UsersController < ApplicationController
 
 
       def create
-        User.create(params.require(:user).permit(:firstName, :lastName, :email, :phone, :numberOfFamilyMembers, :region))
-        redirect_to root_path
+      
+        @user = User.new(user_params)
+        @user.save
+
+         redirect_to root_path
       end
 
 
       def edit
         @user = User.find(params[:id])
+       
       end
 
       def update
         user = User.find(params[:id])
-        User.update(params.require(:user).permit(:firstName, :lastName, :email, :phone, :numberOfFamilyMembers, :region))
+        user.update(user_params)
+
         redirect_to users_path 
       end
 
@@ -36,7 +41,10 @@ class UsersController < ApplicationController
         redirect_to users_path
       end
 
-
+      private
+      def user_params
+  params.require(:user).permit(:firstName, :lastName, :email, :phone, :numberOfFamilyMembers, :region)
+      end
       end
     
 

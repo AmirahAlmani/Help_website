@@ -3012,3 +3012,571 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-04-05 02:55:57 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:55:59 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-05 02:56:00 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.2ms)
+  Rendered users/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 129ms (Views: 97.8ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:56:43 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 76ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-05 02:56:54 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (12.3ms)
+  Rendered users/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 53ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:58:08 +0300
+  
+SyntaxError (/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:3: syntax error, unexpected '<'
+    <%= render 'pages' %>
+    ^
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:5: unterminated string meets end of file
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:5: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:3: syntax error, unexpected '<'
+app/controllers/application_controller.rb:5: unterminated string meets end of file
+app/controllers/application_controller.rb:5: syntax error, unexpected end-of-input, expecting end
+app/controllers/pages_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-04-05 02:58:30 +0300
+  
+SyntaxError (/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:3: syntax error, unexpected '<'
+    <h1> <%= link_to 'HELP WEBSITE...
+    ^
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:8: syntax error, unexpected tIDENTIFIER, expecting end
+    <%= link_to 'Admin', root_path %>
+        ^~~~~~~
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:8: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...= link_to 'Admin', root_path %>
+...                             ^~
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:11: syntax error, unexpected '<', expecting end
+    <li>
+    ^
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:18: unterminated string meets end of file
+/Users/amirah/sei/projects/Help_website/help_website/app/controllers/application_controller.rb:18: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:3: syntax error, unexpected '<'
+app/controllers/application_controller.rb:8: syntax error, unexpected tIDENTIFIER, expecting end
+app/controllers/application_controller.rb:8: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/controllers/application_controller.rb:11: syntax error, unexpected '<', expecting end
+app/controllers/application_controller.rb:18: unterminated string meets end of file
+app/controllers/application_controller.rb:18: syntax error, unexpected end-of-input, expecting end
+app/controllers/pages_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:55 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 02:59:56 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:01 +0300
+Processing by PagesController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:06 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:13 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 03:00:15 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-05 03:00:16 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 69ms (Views: 17.1ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/users/1" for ::1 at 2020-04-05 03:02:03 +0300
+  
+SyntaxError (/Users/amirah/sei/projects/Help_website/help_website/app/controllers/users_controller.rb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+        redirect_to users_path 
+        ^~~~~~~~~~~):
+  
+app/controllers/users_controller.rb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/" for ::1 at 2020-04-05 03:06:22 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 03:06:28 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 57ms (Views: 41.6ms | ActiveRecord: 8.0ms)
+
+
+Started DELETE "/users/16" for ::1 at 2020-04-05 03:06:40 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u1YQr/2LJJR1b2CO402oThKvx3MI9udH7lAakvgeiSCpt6W3ExcoIAB82XRWyY7B2AjSrAcs9yhKAHy1ztKlqA==", "id"=>"16"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:39
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 16]]
+  ↳ app/controllers/users_controller.rb:39
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:39
+Redirected to http://localhost:3000/users
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 03:06:40 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/10" for ::1 at 2020-04-05 03:06:44 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4GK2nz+b5gNcv6qAZ23mrWF1CPvovzekn0aTR84xIvvygwOH0QfqtymsE3rS6cAiq9IdJOdlJ8s7FvVg+P0Ocw==", "id"=>"10"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:39
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:39
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/users_controller.rb:39
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:39
+Redirected to http://localhost:3000/users
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 03:06:44 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-04-05 03:06:51 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:27
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (5.8ms)
+  Rendered users/edit.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 95ms (Views: 90.7ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/users/1" for ::1 at 2020-04-05 03:07:03 +0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bZaOuYUgo+pOHhibPVHq+t6nGJIRVNfPuJQGgrVRF5v7QXfQBjVwow6NfPrTRS/kMkLiYE8Mxpdd91WKRJOBw==", "user"=>{"firstName"=>"lama", "lastName"=>"khalid", "email"=>"lama@gimail.com", "phone"=>"056667777888", "numberOfFamilyMembers"=>"3", "region"=>"Riyadh"}, "commit"=>"Update User", "id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:33
+  [1m[36mUser Update (1.5ms)[0m  [1m[33mUPDATE "users" SET "firstName" = $1, "email" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["firstName", "lama"], ["email", "lama@gimail.com"], ["updated_at", "2020-04-05 00:07:03.198733"], ["id", 1]]
+  ↳ app/controllers/users_controller.rb:33
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:33
+Redirected to http://localhost:3000/users
+Completed 302 Found in 12ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 03:07:03 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
