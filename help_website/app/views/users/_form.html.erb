@@ -1,36 +1,80 @@
 <%= form_with model: @user ,local:true do |form| %>
-    <p>
-    First Name :
+
+<div class="container">
+<div class="row">
+<div class="col-25">
+
+    <label>First Name :</label>
+    </div>
+<div class="col-75">
     <%= form.text_field :firstName %>
-    </p>
+    </div>
+
+    </div>
+
+
+    <div class="row">
+<div class="col-25">
+
+    <label>Last Name :</label>
+    </div>
+<div class="col-75">
+    <%= form.text_field :lastName %>
+    </div>
+
+    </div>
+
+
+        <div class="row">
+<div class="col-25">
+
+    <label>Email :</label>
+    </div>
+<div class="col-75">
+    <%= form.text_field :email %>
+    </div>
+
+    </div>
+
+
+        <div class="row">
+<div class="col-25">
+
+    <label>Phone :</label>
+    </div>
+<div class="col-75">
+    <%= form.text_field :phone %>
+    </div>
+
+    </div>
+
+
+           <div class="row">
+<div class="col-25">
+
+    <label>Number Of Family Members :</label>
+    </div>
+<div class="col-75">
+    <%= form.text_field :numberOfFamilyMembers %>
+    </div>
+
+    </div> 
+
+
+               <div class="row">
+<div class="col-25">
+
+    <label>Region :</label>
+    </div>
+<div class="col-75">
+    <%= form.text_field :region %>
+    </div>
+
+    </div> 
    
-    <p>
-    Last Name :
-<%= form.text_field :lastName %>
-    </p>
 
-
-    <p>
-    Email :
-<%= form.text_field :email %>
-    </p>
-
-        <p>
-    Phone :
-<%= form.text_field :phone %>
-    </p>
-
-        <p>
-    Number Of Family Members :
-<%= form.text_field :numberOfFamilyMembers %>
-    </p>
-
-
-        <p>
-    Region :
-<%= form.text_field :region %>
-    </p>
-
-
+<div class="row">
     <%= form.submit %>
         <% end %>
+
+        </div>

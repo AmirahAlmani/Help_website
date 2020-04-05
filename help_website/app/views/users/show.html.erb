@@ -1,4 +1,5 @@
-<h2> Show User </h1>
+<h2> Show Family </h1>
+
 
 <table >
   <tr>
@@ -20,10 +21,10 @@
         <td><%= @user.numberOfFamilyMembers %></td>
         <td><%= @user.region %></td>
            <td><a href="<%= edit_user_path %>" >
-           <em>Edit</em>
+           <button class="button">Edit</button>
           </a>
         </td>
-          <td><a data-confirm="Are you sure you want to delete <%= @user.firstName %>?" data-method="delete" href="/users/<%= @user.id %>" rel="nofollow"><i>Delete</i>
+          <td><a data-confirm="Are you sure you want to delete <%= @user.firstName %>?" data-method="delete" href="/users/<%= @user.id %>" rel="nofollow"><button class="button">Delete</button>
     	   </a>
         </td>
       </tr>

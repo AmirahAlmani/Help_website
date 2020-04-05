@@ -1,4 +1,24 @@
 <h1>New Request</h1>
 
 
-<%= render 'users/form' %>
+<% if @user.errors.any? %>
+<h3> we have proplems </h3>
+
+<h4>
+<%= pluralize(@user.errors.count, 'error') %>
+stopped us from saving the task :
+</h4>
+
+<ul>
+  <% @user.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+  <% end %>
+</ul>
+
+
+<% end %>
+<%= render partial:'users/form', locals: { user: @user } %>
+
+
+
+
