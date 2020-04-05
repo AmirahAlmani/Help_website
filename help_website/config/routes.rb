@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  devise_for :admins
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   get "users", to: "users#index"
+  get "admins", to: "users#sigin_in"
   get "users/new", to: "users#new"
   post "users", to: "users#create"
   get "users/:id/edit", to: "users#edit", as: :user_edit

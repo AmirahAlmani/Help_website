@@ -10,19 +10,32 @@
   </head>
 
   <body>
+<h1> <%= link_to 'HELP WEBSITE', root_path %> </h1>
 
 <header>
-<h1> <%= link_to 'HELP WEBSITE', root_path %> </h1>
+
+<% if admin_signed_in? %>
+<p>
+Welcome <%= current_admin.email %>
+</p>
+<%end%>
+
 <nav>
 <ul>
 <li>
-<%= link_to 'Admin', root_path %>
+
+<% if admin_signed_in? %>
+<%= link_to 'Admin Sign out', destroy_admin_session_path, method: :delete %>
+
+<%else%>
+<%= link_to 'Admin Sign in', new_admin_session_path %>
 </li>
+<%end %>
+
 
 <li>
 <%= link_to 'Submit Request', users_new_path %>
 </li>
-
 
 
 </ul>
@@ -30,6 +43,10 @@
 
 
 </header>
+
+  <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
