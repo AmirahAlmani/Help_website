@@ -4900,3 +4900,264 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/users" for ::1 at 2020-04-05 13:01:26 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 181ms (Views: 170.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:01:43 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 174ms (Views: 170.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:02:24 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 93ms (Views: 90.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:02:42 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 53ms (Views: 49.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:02:54 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:03:02 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:03:15 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:03:30 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:03:55 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:06:17 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 99ms (Views: 89.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:06:49 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:20
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:07:05 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:20
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:07:23 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-05 13:08:59 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.8ms)
+  Rendered users/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-05 13:19:28 +0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (13.5ms)
+  Rendered users/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 376ms (Views: 344.9ms | ActiveRecord: 13.2ms)
+
+
+Started POST "/users" for ::1 at 2020-04-05 13:19:34 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gkrcsslrYYQIZlyn6T79X1yJTt3rdh/5aM11+z0ToeiQq2mqJ/dtMH115V1cutvQli5bAuSsD5bMnRPcC9+NYA==", "user"=>{"firstName"=>"sara", "lastName"=>"", "email"=>"", "phone"=>"", "numberOfFamilyMembers"=>"", "region"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("firstName", "lastName", "email", "phone", "region", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstName", "sara"], ["lastName", ""], ["email", ""], ["phone", ""], ["region", ""], ["created_at", "2020-04-05 10:19:34.663140"], ["updated_at", "2020-04-05 10:19:34.663140"]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:21
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2020-04-05 13:19:34 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:19:41 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/24/edit" for ::1 at 2020-04-05 13:19:46 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:33
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 29ms (Views: 22.5ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/users/24" for ::1 at 2020-04-05 13:19:51 +0300
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRpi0olndBTs2KhZuMGGqKuZHQidPi1uRGvWL+LzoUYRm3s48LWKnI+jXRSauD/RZa8k3E7wqxB6S8vpnupSxw==", "user"=>{"firstName"=>"sara", "lastName"=>"", "email"=>"", "phone"=>"", "numberOfFamilyMembers"=>"", "region"=>"Riyadh"}, "commit"=>"Update User", "id"=>"24"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:39
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "region" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["region", "Riyadh"], ["updated_at", "2020-04-05 10:19:51.390816"], ["id", 24]]
+  ↳ app/controllers/users_controller.rb:39
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:39
+Redirected to http://localhost:3000/users
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:19:51 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/24" for ::1 at 2020-04-05 13:19:57 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1k0HxsC1wIJGmnwtv6eHmZfR1HLF9TPpweSjVU5mRmDErLLeLinMNjOJxdcKI6EWXXbBrcovI4ZltMVyeKpq6A==", "id"=>"24"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+app/controllers/users_controller.rb:45:in `destroy'
+Started GET "/users" for ::1 at 2020-04-05 13:20:22 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 41ms (Views: 34.2ms | ActiveRecord: 2.9ms)
+
+
+Started DELETE "/users/24" for ::1 at 2020-04-05 13:20:25 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8Dw5EaRa4iWXnnuU9iXf5uMM2JilzYouvGqMFy1bBrzi3YwJSsbukeKNwm5DoflpKavNR6oXmkEYOuowG5cqNA==", "id"=>"24"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/users_controller.rb:45:in `destroy'
+Started GET "/users" for ::1 at 2020-04-05 13:20:35 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 29ms (Views: 23.6ms | ActiveRecord: 3.2ms)
+
+
+Started DELETE "/users/24" for ::1 at 2020-04-05 13:20:38 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JvCsrLHslbNEvSiVn2wRlr8HD6Yc7Hnll90h6LW2Nx40ERm0X3CZBzGukW8q6DcZdaAaeRM2aYozjUfPg3oblg==", "id"=>"24"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 24]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to http://localhost:3000/users
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-05 13:20:38 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
