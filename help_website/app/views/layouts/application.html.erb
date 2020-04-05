@@ -26,6 +26,13 @@ Welcome <%= current_admin.email %>
 
 <% if admin_signed_in? %>
 <%= link_to 'Admin Sign out', destroy_admin_session_path, method: :delete %>
+<li>
+<%= link_to 'All Request', users_path %>
+</li>
+
+<li>
+<%= link_to 'Accepted Request', root_path %>
+</li>
 
 <%else%>
 <%= link_to 'Admin Sign in', new_admin_session_path %>
