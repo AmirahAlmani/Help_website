@@ -10,7 +10,7 @@
   </head>
 
   <body>
-<h1> <%= link_to 'HELP WEBSITE', root_path %> </h1>
+<h1 class="title"> HELP WEBSITE </h1>
 
 <header>
 
@@ -25,24 +25,34 @@ Welcome <%= current_admin.email %>
 <li>
 
 <% if admin_signed_in? %>
-<%= link_to 'Admin Sign out', destroy_admin_session_path, method: :delete %>
+<li>
+<%= link_to 'Home', root_path %>
+</li>
+<li>
+<%= link_to 'Submit Request', users_new_path %>
+</li>
+
 <li>
 <%= link_to 'All Request', users_path %>
 </li>
 
 <li>
-<%= link_to 'Accepted Request', root_path %>
+<%= link_to 'Export Requests', root_path %>
+</li>
+ <li style="float:right">
+<%= link_to 'Admin Sign out', destroy_admin_session_path, method: :delete , :class => 'active'%>
 </li>
 
 <%else%>
+<%= link_to 'Home', root_path %>
+
+<li class="sign_in">
+<%= link_to 'Submit Request', users_new_path %>
+</li>
+<li class="sign_in" style="float:right">
 <%= link_to 'Admin Sign in', new_admin_session_path %>
 </li>
 <%end %>
-
-
-<li>
-<%= link_to 'Submit Request', users_new_path %>
-</li>
 
 
 </ul>

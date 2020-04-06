@@ -14,7 +14,24 @@
  *= require_self
  */
 
- ul {
+ .active {
+  background-color: rgba(94, 12, 12, 0.995);
+}
+ .title{
+  color: #111; 
+  font-family: 'Times New Roman', Times, serif; 
+   font-size: 64px; 
+   font-weight: 700; 
+   line-height: 64px; 
+   margin: 0 0 0;
+    padding: 20px 30px;
+     text-align:center; 
+     text-transform: uppercase; 
+
+}
+
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,6 +41,7 @@
   
   li {
     float: left;
+    font-family: 'Times New Roman', Times, serif; 
   }
   
   li a {
@@ -32,16 +50,19 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
   }
   
   li a:hover {
     background-color: #111;
   }
 
-  h1 {
-text-align:center
-
+  h1 , h2{
+text-align:center ;
+font-family: 'Times New Roman', Times, serif; 
   }
+
+
 
 /* table css */
   table {
@@ -59,6 +80,7 @@ text-align:center
   th {
     background-color: rgb(53, 54, 53);
     color: white;
+    font-family: 'Times New Roman', Times, serif; 
   }
 
 
@@ -74,46 +96,64 @@ text-align:center
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    font-family: 'Times New Roman', Times, serif; 
   }
   
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+
+  .label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif; 
   }
   
   input[type=submit] {
     background-color: #111;
     color: white;
-    padding: 12px 70px;
+    padding: 12px ;
     border: none;
     border-radius: 41px;
     cursor: pointer;
-    width: 30%;
-    margin-left: 40%;
+    width: 40%;
+    margin-left: 32%;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
   }
   
   input[type=submit]:hover {
     background-color: #333;
   }
   
-  
+  /* form layout */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    font-weight: bold;
   }
   
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
+    
   }
+
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -132,11 +172,69 @@ text-align:center
   font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: 'Times New Roman', Times, serif; 
   }
 
-  @media screen and (max-width: 600px) {
+
+  /* sigin in format */
+
+.container1 {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 25px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.col-251 {
+  
+  width: 25%;
+  margin-left: 35%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif; 
+  
+}
+
+.col-751 {
+  
+  width: 500%;
+  margin-left: 35%;
+  
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+  @media screen and (max-width: 700px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
+
+    input[type=submit] {
+      background-color: #111;
+      color: white;
+      padding: 20px 70px;
+      border: none;
+      border-radius: 41px;
+      cursor: pointer;
+      width: 30%;
+      margin-left: 35%;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #333;
+    }
+
+    label {
+     font-size: large;
+      display: inline-block;
+    }
+
   }

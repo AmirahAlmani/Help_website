@@ -5,10 +5,11 @@
   <th>ID</th>
     <th>First Name</th>
     <th>Last Name</th>
-    <th>Email</th>
-    <th>Phone</th>
+    <%# <th>Email</th> %>
+    <%# <th>Phone</th> %>
     <th>Number of family members</th>
     <th>Region</th>
+    <th>    </th>
      <th> Edit /</th>
      <th>Delete</th>
   </tr>
@@ -18,10 +19,15 @@
       <td><%= user.id %></td>
        <td><%= user.firstName %></td>
         <td><%= user.lastName %></td>
-        <td><%= user.email %></td>
-        <td><%= user.phone %></td>
+        <%# <td><%= user.email %></td> 
+        <%# <td><%= user.phone %></td> 
         <td><%= user.numberOfFamilyMembers %></td>
         <td><%= user.region %></td>
+        <td><a href="<%= user_path(user) %>" >
+           <button class="button">Open</button>
+          </a>
+        </td>
+
            <td><a href="<%= edit_user_path(user) %>" >
            <button class="button">Edit</button>
           </a>

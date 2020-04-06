@@ -2,22 +2,22 @@
 
 
 <% if @user.errors.any? %>
-<h3> we have proplems </h3>
+<h3> We have proplems! </h3>
 
 <h4>
 <%= pluralize(@user.errors.count, 'error') %>
-stopped us from saving the task :
+stopped us from saving the request :
 </h4>
 
-<ul>
+<div>
   <% @user.errors.full_messages.each do |msg| %>
-    <li><%= msg %></li>
+    <p><%= msg %></p>
   <% end %>
-</ul>
+</div>
 
 
 <% end %>
-<%= render partial:'users/form', locals: { user: @user } %>
+<%= render partial:'form', locals: { user: @user } %>
 
 
 
