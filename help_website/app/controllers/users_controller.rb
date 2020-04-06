@@ -23,7 +23,7 @@ class UsersController < ApplicationController
        
         if @user.save
             
-            redirect_to root_path, notice: "Request Created Sucsesfully"
+            redirect_to users_new_path, notice: "Request Created Sucsesfully"
          else
             render 'new'
          end

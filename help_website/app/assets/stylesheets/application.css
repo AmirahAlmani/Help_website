@@ -13,7 +13,32 @@
  *= require_tree .
  *= require_self
  */
+ /* // Custom bootstrap variables must be set or imported *before* bootstrap. */
 
+/* img{
+  margin-top: -1.66%; 
+} */
+
+img{
+  margin-top:-1.7% ;
+   /* height: 500%; */
+   width: 55%;
+   margin-left: 22%;
+
+ }
+
+ .notice {
+  color:rgb(3, 75, 3);
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(141, 197, 141);
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style:none;
+  border-radius: 8px ;
+ 
+}
  .active {
   background-color: rgba(94, 12, 12, 0.995);
 }
@@ -133,8 +158,8 @@ font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
   }
   
   .col-25 {
@@ -161,7 +186,7 @@ font-family: 'Times New Roman', Times, serif;
     clear: both;
   }
 
-  .button {
+  .button { /*open*/
     background-color: #333;
     border: none;
   color: white;
@@ -189,7 +214,7 @@ font-family: 'Times New Roman', Times, serif;
 .col-251 {
   
   width: 25%;
-  margin-left: 35%;
+  margin-left: 30%;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif; 
   
@@ -198,7 +223,7 @@ font-family: 'Times New Roman', Times, serif;
 .col-751 {
   
   width: 500%;
-  margin-left: 35%;
+  margin-left: 30%;
   
 }
 
@@ -212,29 +237,55 @@ font-family: 'Times New Roman', Times, serif;
 
 
   @media screen and (max-width: 700px) {
-    .col-25, .col-75, input[type=submit] {
+    .title , h1{
+      font-size: large;
+    }
+
+    img{
+     margin-top:-4% ;
+      height: 80%;
       width: 100%;
-      margin-top: 0;
+      margin-left: 0%;
+    }
+
+  
+    .container , .container1{
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    
+    .col-25 ,.col-25 {
+      float: left;
+      width: 40%;
+      margin-top: 6px;
+      font-family: 'Times New Roman', Times, serif; 
+      font-size: 16px;
+      
+    }
+    
+    .col-75 ,.col-751 {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      
     }
 
     input[type=submit] {
       background-color: #111;
       color: white;
-      padding: 20px 70px;
+      padding: 10px 20px;
       border: none;
       border-radius: 41px;
       cursor: pointer;
       width: 30%;
-      margin-left: 35%;
+     
     }
     
     input[type=submit]:hover {
       background-color: #333;
-    }
-
-    label {
-     font-size: large;
-      display: inline-block;
     }
 
   }
