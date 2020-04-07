@@ -1,11 +1,33 @@
 class UsersController < ApplicationController
 
-    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy]
+    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy, :export]
+
+
+    # def index
+    #     @users = User.all
+    # end
+
 
 
     def index
-        @users = User.all
+      @users = User.all
+      respond_to do |format|
+        format.xlsx {
+          response.headers[
+            'Content-Disposition'
+          ] = "attachment; filename=Requests.xlsx"
+        }
+        format.html { render :index }
+      end
     end
+
+
+
+
+
+
+
+
     
     def show
         @user = User.find(params[:id])

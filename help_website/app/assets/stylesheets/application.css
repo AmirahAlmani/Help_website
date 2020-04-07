@@ -15,9 +15,45 @@
  */
  /* // Custom bootstrap variables must be set or imported *before* bootstrap. */
 
-/* img{
-  margin-top: -1.66%; 
-} */
+
+.index-link{
+  
+  background-image: url("https://images.idgesg.net/images/article/2019/02/cw_microsoft_office_365_excel-100787147-large.jpg");
+  background-color: #cccccc;
+  height: 175px;
+  width: 17%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px ;
+  margin-left: 7%;
+}
+
+
+
+.container-exl .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(235, 234, 234, 0);
+  color: black;
+  font-size: 16px;
+  padding: 48% 50%;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px ;
+  text-align: center;
+  
+}
+
+ .btn:hover {
+  background-color: rgba(57, 162, 80, 0.386);
+ 
+}
+
 
 .error-box{
   color:rgb(134, 17, 27);

@@ -1,6 +1,8 @@
 <h1>All the Familys</h1>
 
+
 <table >
+ <thead>
   <tr>
   <th>ID</th>
     <th>First Name</th>
@@ -12,7 +14,11 @@
     <th>    </th>
      <th> Edit/</th>
      <th>Delete</th>
-  </tr>
+     </tr>
+  </thead>
+
+
+  <tbody>
 
   <% @users.each do |user| %>
       <tr>
@@ -37,4 +43,5 @@
         </td>
       </tr>
   <% end %>
+  </tbody>
 </table>

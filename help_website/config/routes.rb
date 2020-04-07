@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get "users/:id/edit", to: "users#edit", as: :user_edit
   patch "users/:id", to: "users#update"
 
-  
+  get "users/export", to: "users#export"
 
   get "users/:id/delete", to: "users#destroy"
   delete "users/:id", to: "users#destroy"
