@@ -1,22 +1,26 @@
 <h1>New Request</h1>
 
-
+<div class="error-box">
 <% if @user.errors.any? %>
-<h3> We have proplems! </h3>
+<h4> We have proplems! </h4>
 
-<h4>
+<h5>
 <%= pluralize(@user.errors.count, 'error') %>
 stopped us from saving the request :
-</h4>
+</h5>
 
-<div>
+<div class="error-list">
   <% @user.errors.full_messages.each do |msg| %>
-    <p><%= msg %></p>
+ <ul class="error-list" >
+    <li ><%= msg %></li>
+   </ul>
   <% end %>
 </div>
 
 
 <% end %>
+
+</div>
 <%= render partial:'form', locals: { user: @user } %>
 
 
