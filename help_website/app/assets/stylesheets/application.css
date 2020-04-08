@@ -83,7 +83,7 @@ h5{
   padding-left: 3.5%;
   padding-bottom: 1%;
   background-color: rgba(184, 73, 73, 0);
-  list-style: square;
+  list-style: inherit;
 }
 
 
@@ -406,5 +406,21 @@ font-family: 'Times New Roman', Times, serif;
     input[type=submit]:hover {
       background-color: #333;
     }
+
+    .error-box{
+      color:rgb(134, 17, 27);
+      font-size: large;
+      font-weight: bold;
+      background-color:  rgba(187, 37, 37, 0.66);
+      /* text-align: center; */
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      border-style:none;
+      border-radius: 8px ;
+    
+    }
+
+    
 
   }
