@@ -5,7 +5,7 @@
 A platform that provide help to families affected by the consequences of the COVID-19  by creating requests for the specialized authorities.
 
 ## User Story:
-<li>As a user , you can add your information and submit a request.
+<li>As a User , you can add your information and submit a request.
 
 <li>As a Admin , you can show all requests.
 <li>As a Admin , you can edit request. 
@@ -51,3 +51,6 @@ A platform that provide help to families affected by the consequences of the COV
 <li>Ruby
 <li>Rails
 <li>CSS
+
+## Help Website Link :
+https://help-website-covid-19.herokuapp.com/
