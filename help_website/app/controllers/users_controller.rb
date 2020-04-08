@@ -1,13 +1,6 @@
 class UsersController < ApplicationController
 
-    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy, :export]
-
-
-    # def index
-    #     @users = User.all
-    # end
-
-
+    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy, :export ,:sign_up]
 
     def index
       @users = User.all
@@ -21,14 +14,6 @@ class UsersController < ApplicationController
       end
     end
 
-
-
-
-
-
-
-
-    
     def show
         @user = User.find(params[:id])
         

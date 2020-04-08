@@ -16,12 +16,12 @@
  /* // Custom bootstrap variables must be set or imported *before* bootstrap. */
 
 
+
 .index-link{
   
   background-image: url("https://images.idgesg.net/images/article/2019/02/cw_microsoft_office_365_excel-100787147-large.jpg");
   background-color: #cccccc;
-  height: 175px;
-  width: 17%;
+  padding: 8% 8%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,15 +38,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgba(235, 234, 234, 0);
+  background-color: rgba(255, 255, 255, 0);
   color: black;
   font-size: 16px;
-  padding: 48% 50%;
+  padding: 50% 50%;
   border: none;
   cursor: pointer;
   border-radius: 20px ;
   text-align: center;
-  
+ 
 }
 
  .btn:hover {
@@ -228,6 +228,7 @@ font-family: 'Times New Roman', Times, serif;
     margin-left: 32%;
     font-family: 'Times New Roman', Times, serif; 
     font-size: 16px;
+    margin-top: 3%;
   }
   
   input[type=submit]:hover {
@@ -245,17 +246,19 @@ font-family: 'Times New Roman', Times, serif;
   
   .col-25 {
     float: left;
-    width: 25%;
+    width: 35%;
     margin-top: 6px;
     font-family: 'Times New Roman', Times, serif; 
     font-size: 20px;
     font-weight: bold;
+    margin-left: 12%;
   }
   
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
+    margin-left: 12%;
     
   }
 
@@ -285,16 +288,15 @@ font-family: 'Times New Roman', Times, serif;
   /* sigin in format */
 
 .container1 {
-  border-radius: 20px;
+  border-radius: 5%;
   background-color: #f2f2f2;
-  padding: 25px;
-  margin-left: 35%;
-  margin-right: 35%;
+  padding: 2%;
+  margin-left: 37%;
+  margin-right: 37%;
 }
 
 .col-251 {
-  
-  width: 25%;
+  width: 50%;
   margin-left: 30%;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif; 
@@ -302,10 +304,13 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .col-751 {
-  
-  width: 500%;
+
   margin-left: 30%;
   
+}
+
+.actions1{
+  margin-right:3% ;
 }
 
 .row1:after {
@@ -317,24 +322,17 @@ font-family: 'Times New Roman', Times, serif;
 
 
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1000px) {
     .title , h1{
       font-size: large;
     }
-/* 
-    img{
-     margin-top:-4% ;
-      height: 80%;
-      width: 100%;
-      margin-left: 0%;
-    } */
 
 
 
     .hero-image  {
       background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/07/187067/5895912e85b09c341fd59c9c92066d2f.jpg");
       margin-top:-4%;
-margin-left: 0%;
+      margin-left: 0%;
       background-color: #cccccc;
       height: 400px;
       width: 100%;
@@ -346,7 +344,7 @@ margin-left: 0%;
 
 
   
-    .container , .container1{
+    .container {
       border-radius: 5px;
       background-color: #f2f2f2;
       padding: 20px;
@@ -354,20 +352,44 @@ margin-left: 0%;
       margin-right: 3%;
     }
     
-    .col-25 ,.col-25 {
+    .col-25  {
       float: left;
-      width: 40%;
+      width: 80%;
       margin-top: 6px;
       font-family: 'Times New Roman', Times, serif; 
       font-size: 16px;
-      
+      margin-left: 12%;
     }
     
-    .col-75 ,.col-751 {
-      float: left;
-      width: 50%;
-      margin-top: 6px;
-      
+    .col-75 {
+      margin-left: 12%;
+      display: inline;
+    }
+
+    .container1{
+      border-radius: 5%;
+      background-color: #f2f2f2;
+      padding: 2%;
+      margin-left: 25%;
+      margin-right: 25%;
+
+    }
+    .col-251{
+
+      width: 30%;
+      margin-left: 20%;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif; 
+    }
+
+    .col-751{
+
+      margin-left: 20%;
+    }
+
+
+    .actions1{
+      margin-right:3% ;
     }
 
     input[type=submit] {
@@ -378,7 +400,7 @@ margin-left: 0%;
       border-radius: 41px;
       cursor: pointer;
       width: 30%;
-     
+     margin-top: 3%;
     }
     
     input[type=submit]:hover {
