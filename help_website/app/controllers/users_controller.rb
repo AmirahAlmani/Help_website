@@ -1,8 +1,7 @@
 class UsersController < ApplicationController
 
-    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy, :export ,:sign_up]
+    before_action :authenticate_admin! , only: [:index, :show, :edit, :update, :destroy ,:sign_up ,:export]
 
-    
     def index
       @users = User.all
       respond_to do |format|
