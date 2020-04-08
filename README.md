@@ -48,6 +48,7 @@ A platform that provide help to families affected by the consequences of the COV
 ### Demo :
 https://docs.google.com/presentation/d/1on4RvfTGOlRjoDCCgXO7MaSkCU2JzI8BYHcGgSVCQe4/edit?usp=sharing
 
+
 ## List of technologies used in this project:
 
 <li>Ruby
