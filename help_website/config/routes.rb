@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get "bootstrap", to: "artists#bootstrap"
   get "users", to: "users#index"
-  # get "admins", to: "users#sigin_in"
-  get "admins/sigin_up", to: "users#sigin_in"
+  get "admins", to: "users#sigin_in"
+  # get "admins/sigin_up", to: "users#sigin_in"
   get "users/new", to: "users#new"
   post "users", to: "users#create"
   get "users/:id/edit", to: "users#edit", as: :user_edit
