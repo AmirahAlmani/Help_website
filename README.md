@@ -2,14 +2,15 @@
 
 ## Overview:
 
-A site to provide help to families affected by the consequences of the Corona virus and connect them to the specialized authorities.
+A platform that provide help to families affected by the consequences of the COVID-19  by creating requests for the specialized authorities.
 
 ## User Story:
 <li>As a user , you can add your information and submit a request.
 
-<li> As a admin , you can show all requests.
-<li> As a admin , you can accept request and contact with family. 
-<li>As a admin, you can delete request.
+<li>As a Admin , you can show all requests.
+<li>As a Admin , you can edit request. 
+<li>As a Admin, you can delete request.
+<li>As a Admin, you can export all request to Execl sheet.
 
 ## Wireframes :
 
@@ -31,8 +32,8 @@ A site to provide help to families affected by the consequences of the Corona vi
 
 <br>
 
-###### Accepted Request :
-![accepted_request_page](help_website/imgs/accepted_request_page.png)
+###### Export Request :
+![accepted_request_page](help_website/imgs/export.png)
 
 <br>
 
@@ -45,3 +46,8 @@ A site to provide help to families affected by the consequences of the Corona vi
 ![admin_page](help_website/imgs/admin_erd.png)
 
 
+## List of technologies used in this project:
+
+<li>Ruby
+<li>Rails
+<li>CSS
