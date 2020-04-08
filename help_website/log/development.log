@@ -25793,3 +25793,176 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-04-08 14:23:12 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 287ms (Views: 256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2020-04-08 15:04:43 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (7.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 202ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2020-04-08 15:04:53 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QRFv+Ffl5msJsdsToPbhCG2DTHC5559tvEx1bcbNMowTJjxrypmPUjaIx3wUy2QxTwgVLTGEprw/S8WdDKVqiA==", "admin"=>{"email"=>"admin@help.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (6.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["email", "admin@help.com"], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 143ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-08 15:04:53 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:19
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/export" for ::1 at 2020-04-08 15:04:55 +0300
+Processing by UsersController#export as HTML
+  [1m[36mAdmin Load (0.4ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/export.html.erb within layouts/application
+  Rendered users/export.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 43.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2020-04-08 15:04:58 +0300
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 56ms (Views: 48.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-08 15:05:02 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (10.7ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:19
+Completed 200 OK in 73ms (Views: 68.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for ::1 at 2020-04-08 15:05:20 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2vPjGNc50Pi5ZfZ4f2Mrl8DsDxkNh9ZhcBuggVtgqCyJ95TqPhZz383v5KiD7h58SuGp1XZmzDS0CmS4L5awRw==", "user"=>{"firstName"=>"test", "lastName"=>"test", "email"=>"test@test.com", "phone"=>"0555444433", "numberOfFamilyMembers"=>"9", "region"=>"Jeddah"}, "commit"=>"Create Request"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:31
+  [1m[36mUser Create (18.7ms)[0m  [1m[32mINSERT INTO "users" ("firstName", "lastName", "email", "phone", "numberOfFamilyMembers", "region", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["firstName", "test"], ["lastName", "test"], ["email", "test@test.com"], ["phone", "0555444433"], ["numberOfFamilyMembers", 9], ["region", "Jeddah"], ["created_at", "2020-04-08 12:05:20.277566"], ["updated_at", "2020-04-08 12:05:20.277566"]]
+  ↳ app/controllers/users_controller.rb:31
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:31
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 47ms (ActiveRecord: 24.8ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-08 15:05:20 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.4ms)
+  Rendered users/new.html.erb within layouts/application (10.4ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:19
+Completed 200 OK in 100ms (Views: 94.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-08 15:05:22 +0300
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.4ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/102" for ::1 at 2020-04-08 15:05:28 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9AUQWCTGBVy7QqOzQuWyfZaBGvlkqeR0xCFNRSKPcb2Uhkj1fPvzCf9MgYWUC8K30NMc0JYR0ye4CQcVnCburQ==", "id"=>"102"}
+  [1m[36mAdmin Load (0.5ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 102], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:56
+  [1m[36mUser Destroy (5.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 102]]
+  ↳ app/controllers/users_controller.rb:56
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:56
+Redirected to http://localhost:3000/users
+Completed 302 Found in 20ms (ActiveRecord: 10.4ms)
+
+
+Started GET "/users" for ::1 at 2020-04-08 15:05:28 +0300
+Processing by UsersController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:23
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/export" for ::1 at 2020-04-08 15:05:30 +0300
+Processing by UsersController#export as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/export.html.erb within layouts/application
+  Rendered users/export.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 43ms (Views: 39.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.xlsx" for ::1 at 2020-04-08 15:05:31 +0300
+Processing by UsersController#index as XLSX
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/index.xlsx.axlsx
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.xlsx.axlsx:18
+  Rendered users/index.xlsx.axlsx (91.0ms)
+Completed 200 OK in 102ms (Views: 97.3ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/admins/sign_out" for ::1 at 2020-04-08 15:05:37 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+dEKFvpwMz5AfdhahdDHRhq3+7R3b6ge2EiOq1DobSKZUlK7ok3FawRz+mxTPreMXOX9nYXXn02kYMT77kHyMg=="}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-04-08 15:05:37 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2020-04-08 16:10:29 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 139ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
