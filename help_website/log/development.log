@@ -26033,3 +26033,21 @@ Processing by UsersController#export as HTML
 Completed 200 OK in 112ms (Views: 104.4ms | ActiveRecord: 1.5ms)
 
 
+Started GET "/users/export" for ::1 at 2020-04-08 17:52:21 +0300
+Processing by UsersController#export as HTML
+  [1m[36mAdmin Load (0.6ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/export.html.erb within layouts/application
+  Rendered users/export.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 394ms (Views: 268.1ms | ActiveRecord: 58.1ms)
+
+
+Started GET "/users/export" for ::1 at 2020-04-08 17:52:39 +0300
+Processing by UsersController#export as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1 ORDER BY "admins"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering users/export.html.erb within layouts/application
+  Rendered users/export.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.3ms)
+
+
