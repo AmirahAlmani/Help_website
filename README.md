@@ -39,10 +39,9 @@ A platform that provide help to families affected by the consequences of the COV
 
 ## ERD 
 
-#### Family ERD :
 ![family_page](help_website/imgs/family_erd.png)
 
-#### Admin ERD :
+
 ![admin_page](help_website/imgs/admin_erd.png)
 
 ### Demo :
